@@ -15,8 +15,7 @@
 	- [9. List basics](#9-list-basics)
 	- [10. `for` loops](#10-for-loops)
 	- [11. `continue` and `break`](#11-continue-and-break)
-	- [12. Practice Questions](#12-practice-questions)
-	- [Practice questions - 1: conditionals](#practice-questions---1-conditionals)
+	- [Practice Questions - 1: conditionals](#practice-questions---1-conditionals)
 	- [Practice Questions - 2: functions](#practice-questions---2-functions)
 	- [Summing up](#summing-up)
 
@@ -485,21 +484,7 @@
 	```
 - There is not 1 in the output since when `i` value is 1 Python executed `continue` which results in ignoring the code after Line 3.
 
-## 12. Practice Questions
-
-1. Create a function named `get_maximum` taking a list of numbers, which can return the maximum number in the list.
-
-2. Create a function taking a list, which can print the even indices values, i.e., the 2nd value, 4th value, 6th value, ... . For example, given a list `x = ['a', 'b', 'c', 'd']`, the output should print 'b' and 'd'. (try to use `continue` in the loop)
-
-3. Calculate the sum of  1 to $n$.
-	- Create a function named `get_number` which returns a positive number. In the function you use `input` function to let user input a positive integer. If user inputs a negative number, reprompt the user with "Please input a positive number: " .
-	- Create a function named `get_sum` taking a number $n$ and returning the sum of 1 to  $n$.
-	- Create a `main` function which calls the two functions above to calculate the sum of 1 to $n$.
-
-4. Given a list of numbers, try to print the numbers starting with the first one and stop when the sum of the numbers collected is larger than 100.
- 
-
-## Practice questions - 1: conditionals
+## Practice Questions - 1: conditionals
 
 1.  Create a function named `is_even`, which returns `True` if inputting an even number; return `False`.
 
