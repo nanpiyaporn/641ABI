@@ -1,4 +1,4 @@
-# Variable, expression, and statement
+# Variables and functions
 
 
 - [Variable, expression, and statement](#variable-expression-and-statement)

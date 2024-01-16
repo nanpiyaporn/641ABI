@@ -121,7 +121,6 @@
 
 
 ## 3. Conditional statement: `if` statement
-(Chapter-5.4)
 
 - When we are trying to finish some tasks, we almost always need the ability to check conditions and change the behavior of the program accordingly. Conditional statements give us this ability.
 - For example, given a number, we would like to state the number is positive if it is positive. We can use a `if` statement.
@@ -145,7 +144,7 @@
 
 
 ## 4. Alternative execution: Control Flow, `else`, and `elif`
-(Chapter-5.5)
+
 - the code
 	```python
 	x = float(input("Please input a number: "))
@@ -463,7 +462,7 @@
 
 	print(n)
 	```
-- In the above program, *`break` tells Python to “break out” of a loop early, before it has finished all of its iterations. *
+- In the above program, _`break` tells Python to “break out” of a loop early, before it has finished all of its iterations._
 - This program will reprompt the use with "Please input a score (0-100):  " when the user's input is not within the range (0-100). 
 - If the input is in the range, the program will execute `break` to exit the loops.
 
