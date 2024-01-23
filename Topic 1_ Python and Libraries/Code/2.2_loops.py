@@ -80,11 +80,26 @@ print(square) # print <map object at 0x0000026FAADDD090>
 
 square = list(square)
 print('list(square)',square) 
-
+'''
 # lamda function 
 square = lambda x: x**3
 s = square(2)
 print(' 2x2x2 =',s)
 
 #--------------- map + lambda fuction
+square = map(lambda x: x** 2, number)
+square = list(square)
+print(square)
+'''
+#------------- filter ---------------
+num = [1, -2, 3, -4]
+positive_num = filter(lambda x: x>0, num)
+print('postitive',positive_num)
+positive_num = list(positive_num)
+print('postitive',positive_num)
 
+#------------- list comprehension
+p = [1,2,2,3,-4]
+squares = [i**2 for i in p if i>0]
+
+print(squares)
