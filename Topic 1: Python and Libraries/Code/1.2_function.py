@@ -18,18 +18,18 @@
 # fun1('Jin')
 
 ## ------ 3. Function with default value without reture values (void function)
-def fun1(name, greeting = 'Hello'):
-    print(f"{greeting}, {name}")
+# def fun1(name, greeting = 'Hello'):
+#     print(f"{greeting}, {name}")
 
-x = fun1('Jin', greeting='Good morning')   
-print(x)
+# x = fun1('Jin', greeting='Good morning')   
+# print(x)
 
 
 ## ------ 4. Function with return values (fruitful function)
-# def add(a, b):
-#     c = a + b
-#     return c
+def add(a, b):
+    c = a + b
+    return c
 
-# rst = add(10, 5)
-# print(rst)
+rst = add(10, 5)
+print(rst)
 
