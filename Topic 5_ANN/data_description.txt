@@ -1,0 +1,62 @@
+SalePrice: house price
+
+LotFrontage: Linear feet of street connected to property
+
+LotArea: Lot size in square feet
+
+Street: Type of road access to property
+
+       Grvl	Gravel	
+       Pave	Paved
+
+LotShape: General shape of property
+
+       Reg	Regular	
+       IR1	Slightly irregular
+       IR2	Moderately Irregular
+       IR3	Irregular
+
+YearBuilt: Original construction date
+
+BsmtUnfSF: Unfinished square feet of basement area
+
+TotalBsmtSF: Total square feet of basement area
+
+CentralAir: Central air conditioning
+
+       N	No
+       Y	Yes
+
+X1stFlrSF: First Floor square feet
+ 
+X2ndFlrSF: Second floor square feet
+
+GrLivArea: Above grade (ground) living area square feet
+
+BsmtFullBath: Basement full bathrooms
+
+BsmtHalfBath: Basement half bathrooms
+
+FullBath: Full bathrooms above grade
+
+HalfBath: Half baths above grade
+
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+
+Kitchen: Kitchens above grade
+
+BedroomAbvGr: Bedrooms above grade (does NOT include basement bedrooms)
+
+KitchenAbvGr: Kitchens above grade
+
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+
+Fireplaces: Number of fireplaces
+
+GarageYrBlt: Year garage was built
+
+GarageCars: Size of garage in car capacity
+
+GarageArea: Size of garage in square feet
+
+WoodDeckSF: Wood deck area in square feet
